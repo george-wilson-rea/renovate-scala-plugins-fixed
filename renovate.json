@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": ["sbt-plugins"],
+      "registryUrls": [
+        "https://repo1.maven.org/maven2/",
+        "https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases"
+      ]
+    }
+  ]
+}
