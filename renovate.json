@@ -5,7 +5,7 @@
   ],
   "packageRules": [
     {
-      "matchDatasources": ["sbt-plugins"],
+      "matchDatasources": ["sbt-plugin"],
       "registryUrls": [
         "https://repo1.maven.org/maven2/",
         "https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases"
